@@ -11,6 +11,18 @@ Summary: a library for doing approximate and phonetic matching of strings.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jellyfish-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jellyfish-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/jellyfish-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jellyfish-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jellyfish-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jellyfish-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jellyfish/badges/version.svg)](https://anaconda.org/conda-forge/jellyfish)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jellyfish/badges/downloads.svg)](https://anaconda.org/conda-forge/jellyfish)
+
 Installing jellyfish
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `jellyfish` available on your plat
 ```
 conda search jellyfish --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jellyfish-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jellyfish-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jellyfish-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jellyfish-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jellyfish-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jellyfish-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jellyfish/badges/version.svg)](https://anaconda.org/conda-forge/jellyfish)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jellyfish/badges/downloads.svg)](https://anaconda.org/conda-forge/jellyfish)
 
 
 Updating jellyfish-feedstock
