@@ -1,8 +1,8 @@
 {% set name = "jellyfish" %}
-{% set version = "0.5.6" %}
+{% set version = "0.6.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "887a9a49d0caee913a883c3e7eb185f6260ebe2137562365be422d1316bd39c9" %}
+{% set hash = "f5da646c4ff578ff37695915c05eaae938b1218082bfef59f8a7183477681ab0" %}
 {% set build = 1 %}
 
 package:
@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
