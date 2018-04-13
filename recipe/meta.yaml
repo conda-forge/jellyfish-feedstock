@@ -33,7 +33,7 @@ test:
 about:
   home: http://github.com/jamesturk/jellyfish
   license: BSD 2-Clause
-  license: LICENSE
+  license_file: LICENSE
   license_family: BSD
   summary: 'a library for doing approximate and phonetic matching of strings.'
   dev_url: http://github.com/jamesturk/jellyfish
