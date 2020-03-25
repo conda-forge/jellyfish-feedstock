@@ -10,9 +10,6 @@ set -xeo pipefail
 THISDIR="$( cd "$( dirname "$0" )" >/dev/null && pwd )"
 PROVIDER_DIR="$(basename $THISDIR)"
 
-THISDIR="$( cd "$( dirname "$0" )" >/dev/null && pwd )"
-PROVIDER_DIR="$(basename $THISDIR)"
-
 FEEDSTOCK_ROOT=$(cd "$(dirname "$0")/.."; pwd;)
 RECIPE_ROOT="${FEEDSTOCK_ROOT}/recipe"
 
@@ -54,9 +51,6 @@ fi
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
 rm -f "$DONE_CANARY"
-# Enable running in interactive mode attached to a tty
-DOCKER_RUN_ARGS=" -it "
-
 
 if [ -z "${CI}" ]; then
     DOCKER_RUN_ARGS="-it "

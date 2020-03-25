@@ -1,8 +1,6 @@
 About jellyfish
 ===============
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
-
 Home: http://github.com/jamesturk/jellyfish
 
 Package license: BSD 2-Clause
@@ -18,7 +16,7 @@ Current build status
 
 
 <table>
-
+    
   <tr>
     <td>Azure</td>
     <td>
@@ -175,12 +173,9 @@ In order to produce a uniquely identifiable distribution:
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
 
-
 Feedstock Maintainers
 =====================
 
 * [@blabalme](https://github.com/blabalme/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
-
-<!-- dummy commit to enable rerendering -->
 
