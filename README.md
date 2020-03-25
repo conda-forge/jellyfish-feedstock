@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About jellyfish
 ===============
 
@@ -175,9 +179,8 @@ In order to produce a uniquely identifiable distribution:
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
 
-
 Feedstock Maintainers
 =====================
 
-* [@blabalme](https://github.com/blabalme/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
+ * [@blabalme](https://github.com/blabalme/)
+ * [@pmlandwehr](https://github.com/pmlandwehr/)

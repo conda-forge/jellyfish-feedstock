@@ -33,11 +33,12 @@ if [ -z "$CONFIG" ]; then
 fi
 
 pip install shyaml
-DOCKER_IMAGE=$(cat "${FEEDSTOCK_ROOT}/.ci_support/${CONFIG}.yaml" | shyaml get-value docker_image.0 condaforge/linux-anvil )
+DOCKER_IMAGE=$(cat "${FEEDSTOCK_ROOT}/.ci_support/${CONFIG}.yaml" | shyaml get-value docker_image.0 condaforge/linux-anvil-comp7 )
 
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
 rm -f "$DONE_CANARY"
+
 # Not all providers run with a real tty.  Disable using one
 DOCKER_RUN_ARGS=" "
 
@@ -48,6 +49,7 @@ docker run ${DOCKER_RUN_ARGS} \
            -e CONFIG \
            -e BINSTAR_TOKEN \
            -e HOST_USER_ID \
+           -e UPLOAD_PACKAGES \
            $DOCKER_IMAGE \
            bash \
            /home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh

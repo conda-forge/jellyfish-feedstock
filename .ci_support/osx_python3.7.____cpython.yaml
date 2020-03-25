@@ -2,8 +2,11 @@ MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 c_compiler:
 - clang
+<<<<<<< HEAD:.ci_support/osx_python3.7.____cpython.yaml
 c_compiler_version:
 - '9'
+=======
+>>>>>>> d62039dd1c60c31c3bdaf794dc2b5d2ccf399a0b:.ci_support/osx_python3.7.yaml
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -17,4 +20,8 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
+<<<<<<< HEAD:.ci_support/osx_python3.7.____cpython.yaml
 - 3.7.* *_cpython
+=======
+- '3.7'
+>>>>>>> d62039dd1c60c31c3bdaf794dc2b5d2ccf399a0b:.ci_support/osx_python3.7.yaml
