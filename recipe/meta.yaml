@@ -1,7 +1,6 @@
 {% set name = "jellyfish" %}
 {% set version = "0.7.2" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
 {% set hash = "cb09c50d7e2bb7b926fc7654762bc81f9c629e0c92ae7137bf22b34f39515286" %}
 
 
@@ -12,10 +11,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
