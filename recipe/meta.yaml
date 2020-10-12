@@ -14,7 +14,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,9 +22,8 @@ requirements:
     - {{ compiler('c') }}
   host:
     - {{ compiler('c') }}
-  host:
-    - python
     - pip
+    - python
   run:
     - python
 
