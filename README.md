@@ -3,7 +3,7 @@ About jellyfish
 
 Home: https://github.com/jamesturk/jellyfish
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jellyfish-feedstock/blob/master/LICENSE.txt)
 
