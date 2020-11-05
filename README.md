@@ -1,15 +1,15 @@
 About jellyfish
 ===============
 
-Home: http://github.com/jamesturk/jellyfish
+Home: https://github.com/jamesturk/jellyfish
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jellyfish-feedstock/blob/master/LICENSE.txt)
 
 Summary: a library for doing approximate and phonetic matching of strings.
 
-Development: http://github.com/jamesturk/jellyfish
+Development: https://github.com/jamesturk/jellyfish
 
 Documentation: https://jellyfish.readthedocs.io/en/latest/
 
@@ -228,6 +228,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@anthchirp](https://github.com/anthchirp/)
 * [@blabalme](https://github.com/blabalme/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 
