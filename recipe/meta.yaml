@@ -1,7 +1,7 @@
 {% set name = "jellyfish" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.8" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "a499741401512d05bbd3556e448e960bc908eba3879fb73d450e8e91566a030b" %}
+{% set hash = "0506089cacf9b5897442134417b04b3c6610c19f280ae535eace390dc6325a5c" %}
 
 
 package:
@@ -14,7 +14,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -36,7 +36,7 @@ about:
   license: BSD-2-Clause
   license_file: LICENSE
   license_family: BSD
-  summary: 'a library for doing approximate and phonetic matching of strings.'
+  summary: a library for doing approximate and phonetic matching of strings.
   dev_url: https://github.com/jamesturk/jellyfish
   doc_url: https://jellyfish.readthedocs.io/en/latest/
 
