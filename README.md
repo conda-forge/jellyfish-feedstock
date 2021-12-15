@@ -337,5 +337,4 @@ Feedstock Maintainers
 
 * [@anthchirp](https://github.com/anthchirp/)
 * [@blabalme](https://github.com/blabalme/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 

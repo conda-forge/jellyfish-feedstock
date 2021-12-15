@@ -14,8 +14,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
@@ -32,6 +32,10 @@ requirements:
 test:
   imports:
     - jellyfish
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/jamesturk/jellyfish
@@ -44,6 +48,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - blabalme
     - anthchirp
