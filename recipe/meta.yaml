@@ -14,8 +14,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
