@@ -11,7 +11,7 @@ Summary: a library for doing approximate and phonetic matching of strings.
 
 Development: https://github.com/jamesturk/jellyfish
 
-Documentation: https://jellyfish.readthedocs.io/en/latest/
+Documentation: https://jamesturk.github.io/jellyfish/
 
 Current build status
 ====================
