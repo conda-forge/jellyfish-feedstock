@@ -1,7 +1,7 @@
 {% set name = "jellyfish" %}
-{% set version = "0.9.0" %}
+{% set version = "0.11.2" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "40c9a2ffd8bd3016f7611d424120442f627f56d518a106847dc93f0ead6ad79a" %}
+{% set hash = "654f2b1543b9927c4429bd5d66f98d1f47e6eb9a4e56212e1907fb4eea258c5a" %}
 
 
 package:
@@ -14,7 +14,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
