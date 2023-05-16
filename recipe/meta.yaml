@@ -20,15 +20,14 @@ build:
 
 requirements:
   build:
-#     - python                                 # [build_platform != target_platform]
-#     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('rust') }}
   host:
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - maturin >=0.14,<0.15
     - pip
-    - python  # [build_platform == target_platform]
+    - python
   run:
     - python
 
