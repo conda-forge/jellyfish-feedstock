@@ -25,7 +25,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('rust') }}
   host:
-    - maturin >=0.14
+    - maturin >=0.14,<0.15
     - pip
     - python
   run:
