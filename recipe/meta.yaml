@@ -1,7 +1,7 @@
 {% set name = "jellyfish" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "881aae3671999bb07ce50c27696f29ca7e842f3e123acc0db6525c9999881bd4" %}
+{% set hash = "f664520189e3ae16e0b5fee21f19d15c8926e2320fd195ccc65d96390d9e9689" %}
 
 
 package:
