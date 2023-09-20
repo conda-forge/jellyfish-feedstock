@@ -25,9 +25,9 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('rust') }}
-    - maturin >=0.14,<0.15                   # [build_platform != target_platform]
+    - maturin >=0.14,<2                      # [build_platform != target_platform]
   host:
-    - maturin >=0.14,<0.15
+    - maturin >=0.14,<2
     - pip
     - python
   run:
