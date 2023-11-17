@@ -1,7 +1,7 @@
 {% set name = "jellyfish" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "f664520189e3ae16e0b5fee21f19d15c8926e2320fd195ccc65d96390d9e9689" %}
+{% set hash = "ddb22b7155f208e088352283ee78cb4ef2d2067a76e148a8bb43d177f32b37d2" %}
 
 
 package:
@@ -16,7 +16,7 @@ source:
 build:
 # Also skip for when ppc64le AND python<3.10 due to Maturin no support for now
   skip: true  # [py<37 or (py<310 and ppc64le)]
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
