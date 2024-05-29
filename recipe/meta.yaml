@@ -1,7 +1,7 @@
 {% set name = "jellyfish" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "ddb22b7155f208e088352283ee78cb4ef2d2067a76e148a8bb43d177f32b37d2" %}
+{% set hash = "72aabb3bedd513cdd20712242fd51173b59972c0b146b7a0b9c6f32f1656293f" %}
 
 
 package:
@@ -24,6 +24,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('rust') }}
     - maturin >=0.14,<2                      # [build_platform != target_platform]
   host:
