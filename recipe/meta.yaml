@@ -16,7 +16,7 @@ source:
 build:
 # Also skip for when ppc64le AND python<3.10 due to Maturin no support for now
   skip: true  # [py<37 or (py<310 and ppc64le)]
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
