@@ -1,5 +1,5 @@
 bot:
-  inspection: hint-all
+  inspection: hint-grayskull
 build_platform:
   linux_ppc64le: linux_64
 conda_build:
