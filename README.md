@@ -270,6 +270,3 @@ Feedstock Maintainers
 * [@blabalme](https://github.com/blabalme/)
 * [@thewchan](https://github.com/thewchan/)
 
-
-<!-- dummy commit to enable rerendering -->
-
